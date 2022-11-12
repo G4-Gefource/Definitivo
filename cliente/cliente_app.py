@@ -69,7 +69,7 @@ while auxiliar is True:
                         aux = 1
                         while aux != 0:
                             pt = input(
-                                'Você já sabe o tipo de ponto turístico que está procurando?\n(S - Sim/N - Não)\n')
+                                'Você já sabe o ponto turístico que está procurando?\n(S - Sim/N - Não)\n')
                             funcoes.limpa()
                             if (pt[0]).upper() == 'S':
                                 aux_ponto = True
@@ -247,7 +247,7 @@ while auxiliar is True:
                         aux = 1
                         while aux != 0:
                             pt = input(
-                                '¿Ya sabes el tipo de lugar turístico que estás buscando?\n(S - Si/N - No)\n')
+                                '¿Ya sabes el lugar turístico que estás buscando?\n(S - Si/N - No)\n')
                             funcoes.limpa()
                             if (pt[0]).upper() == 'S':
                                 aux_ponto = True
