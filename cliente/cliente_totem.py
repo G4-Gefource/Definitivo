@@ -153,6 +153,7 @@ while op != 0:
                     file = open('notas_hotel.txt', 'a')
                     file.write(str(media)+"\n")
                     file.close()
+                    funcoes.limpa()
                     print(
                         f'Você avaliou o hotel {hosped} com {media:.2f} estrelas.')
                     print(
@@ -164,6 +165,7 @@ while op != 0:
                                        'a', encoding='utf-8')
                         arquivo.write(coment+"\n")
                         arquivo.close()
+                        funcoes.limpa()
                     print('Obrigado pela sua avaliação!')
                     hotel = 0
                     funcoes.pausa_pt()
@@ -187,6 +189,7 @@ while op != 0:
                 file = open('notas_eventum.txt', 'a')
                 file.write(str(media)+"\n")
                 file.close()
+                funcoes.limpa()
                 print(f'Você avaliou o Eventum com média {media:.2f}.')
                 print(f'Gostaria de deixar um comentário sobre o Eventum?')
                 av = input('').upper()
@@ -196,12 +199,14 @@ while op != 0:
                                    'a', encoding='utf-8')
                     arquivo.write(coment+"\n")
                     arquivo.close()
+                    funcoes.limpa()
                 print('Obrigado pela sua avaliação!')
                 funcoes.pausa_pt()
                 funcoes.limpa()
             elif opt == 0:
                 print('Obrigado por usar o Eventum!')
                 funcoes.pausa_pt()
+                funcoes.limpa()
                 op = 0
             else:
                 print('Opção inválida.')
@@ -313,6 +318,7 @@ while op != 0:
                     file = open('notas_hotel.txt', 'a')
                     file.write(str(media)+"\n")
                     file.close()
+                    funcoes.limpa()
                     print(
                         f'Ha calificado el hotel {hosped} con {media:.2f} estrellas.')
                     print(
@@ -324,6 +330,7 @@ while op != 0:
                                        'a', encoding='utf-8')
                         arquivo.write(coment+"\n")
                         arquivo.close()
+                        funcoes.limpa()
                     print('¡Gracias por tu valoración!')
                     hotel = 0
                     funcoes.pausa_es()
@@ -347,6 +354,7 @@ while op != 0:
                 file = open('notas_eventum.txt', 'a')
                 file.write(str(media)+"\n")
                 file.close()
+                funcoes.limpa()
                 print(f'Calificaste Eventum con promedio {media:.2f}.')
                 print(f'¿Quieres dejar un comentario sobre Eventum?')
                 av = input('').upper()
@@ -356,12 +364,14 @@ while op != 0:
                                    'a', encoding='utf-8')
                     arquivo.write(coment+"\n")
                     arquivo.close()
+                    funcoes.limpa()
                 print('¡Gracias por tu valoración!')
                 funcoes.pausa_es()
                 funcoes.limpa()
             elif opt == 0:
                 print('¡Gracias por usar Eventum!')
                 funcoes.pausa_es()
+                funcoes.limpa()
                 op = 0
             else:
                 print('Opción no válida.')
