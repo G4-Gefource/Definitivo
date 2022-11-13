@@ -8,6 +8,5 @@ Desenvolvido por alunos da Cesar School, referente a disciplina de Projetos.
 </div>
 ##
 <div>
-    Documentação sobre o projeto
-  <a href="https://docs.google.com/document/d/1GvrCSydcKljoRnPtj2GHn-LII2QnRJX31HMPyCGkZR0/edit" target="_blank"><img src="https://uploaddeimagens.com.br/imagens/HsxEfjw" target="_blank"></a>
+  <a href="https://docs.google.com/document/d/1GvrCSydcKljoRnPtj2GHn-LII2QnRJX31HMPyCGkZR0/edit" target="_blank">Documentação sobre o projeto</a>
 </div>
