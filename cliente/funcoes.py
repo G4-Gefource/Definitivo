@@ -40,7 +40,7 @@ def exibe_ponto_pt(ponto):  # FUNÇÃO PARA EXIBIR PONTO TURÍSTICO EM PORTUGUÊ
     print(
         f'Além disso, você o encontra a {ponto["LOCALIZAÇÃO"]} do hotel!')
     print(
-        f'Aqui está uma breve descrição sobre {ponto["NOME"]}: {ponto["DESCRIÇÃO_PT"]}')
+        f'Aqui está uma breve descrição sobre {ponto["NOME"].title()}: {ponto["DESCRIÇÃO_PT"]}')
 
 
 def exibe_ponto_es(ponto):  # FUNÇÃO PARA EXIBIR PONTO TURÍSTICO EM ESPANHOL
@@ -51,7 +51,7 @@ def exibe_ponto_es(ponto):  # FUNÇÃO PARA EXIBIR PONTO TURÍSTICO EM ESPANHOL
     print(
         f'¡Además, puedes encontrar {ponto["LOCALIZAÇÃO"]} del hotel!')
     print(
-        f'Aquí hay una breve descripción sobre {ponto["NOME"]}: {ponto["DESCRIÇÃO_ES"]}')
+        f'Aquí hay una breve descripción sobre {ponto["NOME"].title()}: {ponto["DESCRIÇÃO_ES"]}')
 
 
 def exibir_pt(ponto):
